@@ -2,7 +2,17 @@
 
 <p>
   <strong>Name:</strong>
-  <%= @patient.name %>
+  <%= @patient.Name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @patient.Address %>
+</p>
+
+<p>
+  <strong>Phone number:</strong>
+  <%= @patient.Phone_Number %>
 </p>
 
 <%= link_to 'Edit', edit_patient_path(@patient) %> |
